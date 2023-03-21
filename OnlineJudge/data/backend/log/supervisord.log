@@ -1,0 +1,53 @@
+2023-03-21 14:23:53,878 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-03-21 14:23:53,883 INFO RPC interface 'supervisor' initialized
+2023-03-21 14:23:53,883 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2023-03-21 14:23:53,883 INFO supervisord started with pid 1
+2023-03-21 14:23:54,323 INFO spawned: 'dramatiq' with pid 123
+2023-03-21 14:23:54,325 INFO spawned: 'gunicorn' with pid 124
+2023-03-21 14:23:54,327 INFO spawned: 'nginx' with pid 125
+2023-03-21 14:23:59,437 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2023-03-21 14:23:59,437 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2023-03-21 14:23:59,437 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2023-03-21 14:36:08,973 WARN received SIGTERM indicating exit request
+2023-03-21 14:36:08,973 INFO waiting for dramatiq, gunicorn, nginx to die
+2023-03-21 14:36:09,011 INFO stopped: nginx (exit status 0)
+2023-03-21 14:36:10,236 INFO stopped: gunicorn (exit status 0)
+2023-03-21 14:36:11,992 INFO waiting for dramatiq to die
+2023-03-21 14:36:15,004 INFO stopped: dramatiq (exit status 0)
+2023-03-21 14:45:57,724 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-03-21 14:45:57,730 INFO RPC interface 'supervisor' initialized
+2023-03-21 14:45:57,730 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2023-03-21 14:45:57,730 INFO supervisord started with pid 1
+2023-03-21 14:45:58,733 INFO spawned: 'dramatiq' with pid 109
+2023-03-21 14:45:58,735 INFO spawned: 'gunicorn' with pid 110
+2023-03-21 14:45:58,736 INFO spawned: 'nginx' with pid 111
+2023-03-21 14:46:03,996 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2023-03-21 14:46:03,996 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2023-03-21 14:46:03,996 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2023-03-21 14:50:12,766 WARN received SIGTERM indicating exit request
+2023-03-21 14:50:12,766 INFO waiting for dramatiq, gunicorn, nginx to die
+2023-03-21 14:50:12,806 INFO stopped: nginx (exit status 0)
+2023-03-21 14:50:13,931 INFO stopped: gunicorn (exit status 0)
+2023-03-21 14:50:15,836 INFO waiting for dramatiq to die
+2023-03-21 14:50:16,887 INFO stopped: dramatiq (exit status 0)
+2023-03-21 14:50:20,481 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-03-21 14:50:20,486 INFO RPC interface 'supervisor' initialized
+2023-03-21 14:50:20,486 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2023-03-21 14:50:20,487 INFO supervisord started with pid 1
+2023-03-21 14:50:21,490 INFO spawned: 'dramatiq' with pid 114
+2023-03-21 14:50:21,492 INFO spawned: 'gunicorn' with pid 115
+2023-03-21 14:50:21,493 INFO spawned: 'nginx' with pid 116
+2023-03-21 14:50:27,135 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2023-03-21 14:50:27,135 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2023-03-21 14:50:27,135 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2023-03-21 15:34:08,956 WARN received SIGTERM indicating exit request
+2023-03-21 15:34:08,956 INFO waiting for dramatiq, gunicorn, nginx to die
+2023-03-21 15:34:08,999 INFO stopped: nginx (exit status 0)
+2023-03-21 15:34:10,447 INFO stopped: gunicorn (exit status 0)
+2023-03-21 15:34:12,325 INFO waiting for dramatiq to die
+2023-03-21 15:34:15,643 WARN killing 'dramatiq' (114) with SIGKILL
+2023-03-21 15:34:15,644 INFO waiting for dramatiq to die
+2023-03-21 15:34:15,658 INFO stopped: dramatiq (terminated by SIGKILL)
+2023-03-21 15:34:15,658 INFO reaped unknown pid 128 (terminated by SIGKILL)
+2023-03-21 15:34:15,658 INFO reaped unknown pid 129 (exit status 0)
+2023-03-21 15:34:15,658 INFO reaped unknown pid 130 (terminated by SIGKILL)
