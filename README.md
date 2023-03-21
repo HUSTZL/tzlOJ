@@ -6,6 +6,8 @@ sudo apt-get upgrade
 sudo apt-get install docker docker-compose
 sudo apt-get install wget
 git clone git@github.com:HUSTZL/tzlOJ.git
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+nvm -v
 nvm install v8.12.0
 nvm use 8.12.0
 node -v
